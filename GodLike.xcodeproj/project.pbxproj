@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		074B47E41C22A2AB00FB5CE1 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B47E31C22A2AB00FB5CE1 /* OneViewController.m */; };
 		074C3B591C1A6F0500C5D479 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 074C3B581C1A6F0500C5D479 /* main.m */; };
 		074C3B5C1C1A6F0500C5D479 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 074C3B5B1C1A6F0500C5D479 /* AppDelegate.m */; };
 		074C3B5F1C1A6F0500C5D479 /* GodLike.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 074C3B5D1C1A6F0500C5D479 /* GodLike.xcdatamodeld */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		074B47E21C22A2AB00FB5CE1 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		074B47E31C22A2AB00FB5CE1 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		074C3B531C1A6F0500C5D479 /* GodLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GodLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		074C3B571C1A6F0500C5D479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		074C3B581C1A6F0500C5D479 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 				074C3B5B1C1A6F0500C5D479 /* AppDelegate.m */,
 				074C3B601C1A6F0500C5D479 /* ViewController.h */,
 				074C3B611C1A6F0500C5D479 /* ViewController.m */,
+				074B47E21C22A2AB00FB5CE1 /* OneViewController.h */,
+				074B47E31C22A2AB00FB5CE1 /* OneViewController.m */,
 				074C3B631C1A6F0500C5D479 /* Main.storyboard */,
 				074C3B661C1A6F0500C5D479 /* Images.xcassets */,
 				074C3B681C1A6F0500C5D479 /* LaunchScreen.xib */,
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				074C3B5C1C1A6F0500C5D479 /* AppDelegate.m in Sources */,
+				074B47E41C22A2AB00FB5CE1 /* OneViewController.m in Sources */,
 				074C3B591C1A6F0500C5D479 /* main.m in Sources */,
 				074C3B621C1A6F0500C5D479 /* ViewController.m in Sources */,
 				074C3B5F1C1A6F0500C5D479 /* GodLike.xcdatamodeld in Sources */,
@@ -420,6 +426,7 @@
 				074C3B7B1C1A6F0500C5D479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		074C3B7C1C1A6F0500C5D479 /* Build configuration list for PBXNativeTarget "GodLikeTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +435,7 @@
 				074C3B7E1C1A6F0500C5D479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

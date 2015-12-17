@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "OneViewController.h"
 @interface ViewController ()
 
 @end
@@ -20,7 +20,24 @@
     label.text=@"aaa";
     label.textColor=[UIColor redColor];
     [self.view addSubview:label];
+    
+    UIButton * btn =[UIButton buttonWithType:UIButtonTypeCustom];
+    btn .frame=CGRectMake(100, 200, 40,40);
+    [btn setTitle:@"啊哈哈" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(btnClicked) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 
+}
+
+-(void)btnClicked{
+
+    NSLog(@"按钮");
+    
+    OneViewController * one =[[OneViewController alloc]init];
+    [self presentViewController:one animated:YES completion:^{
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
